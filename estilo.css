@@ -1,0 +1,37 @@
+/* Selector universal: Elimina márgenes y rellenos predeterminados de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de elemento: Aplica estilos específicos al título */
+h1 {
+    color: #2d5f91;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px #aaa;
+}
+
+/* Selector de clase: Da estilo a los párrafos que comparten la clase "parrafos" */
+.parrafos {
+    width: 80%;
+    max-width: 600px;
+    margin: 15px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    background-color: #fdfdfd;
+    padding: 15px;
+    border-left: 5px solid #2d5f91;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Selector de ID: Aplica un estilo específico al título con ID "h1b" */
+#h1b {
+    background-color: #eef6fc;
+    padding: 10px;
+    border-radius: 5px;
+}
